@@ -12,10 +12,10 @@ For this project, we learnt how to use basic shell commands.
 <ins>ln</ins> : creating links  
   
 <b>We also created a magic file</b>  
-You can <i>man magic</i> for a description on how to create your own magic file.  
-Then use <i>file -C -m your_magic_file</i> to compile it,  
-and <i>file -m your_magic_file</i> to use it.  
+You can <i>"man magic"</i> for a description on how to create your own magic file.  
+Then use <i>"file -C -m your_magic_file"</i> to compile it,  
+and <i>"file -m your_magic_file"</i> to use it.  
   
-<strong>Example:</strong>  
+<strong>Example of magic file content:</strong>  
 <i>offset type test message</i>  
 <i>!:mime MIMETYPE</i>  
