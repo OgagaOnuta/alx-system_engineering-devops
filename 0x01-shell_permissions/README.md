@@ -24,4 +24,4 @@ The <i>man</i> pages were used to view how to use commands
   
 <b>SPECIAL TASK</b>  
 Write a script that will play the StarWars IV episode in the terminal  
-<i>telnet towel.blinkenlights.nl</i>  
+<b>Solution</b> : <i>telnet towel.blinkenlights.nl</i>  
