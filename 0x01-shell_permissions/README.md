@@ -13,9 +13,10 @@ For this project, we learnt how to control permissions using the shell.
   
   
 All files created were <i>scripts</i>  
-and scripts are represented with the <b>Shebang</b> notation <b>#!</b>  
-on the first line e.g. <i>#!/bin/bash</i>  
+and scripts are represented with the <b>Shebang</b> notation <b>"#!"</b>  
+on the first line e.g. <i>"#!/bin/bash"</i>  
   
   
 The <i>man</i> pages were used to view how to use commands  
-<b>Example:</b> <i>man command</i> <b>i.e.</b> <i>man chown</i>  
+<b>Example:</b> <i>man command</i>  
+<b>i.e.</b> <i>man chown</i>  
