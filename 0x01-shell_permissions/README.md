@@ -20,3 +20,8 @@ on the first line e.g. <i>"#!/bin/bash"</i>
 The <i>man</i> pages were used to view how to use commands  
 <b>Example:</b> <i>man command</i>  
 <b>i.e.</b> <i>man chown</i>  
+  
+  
+<b>SPECIAL TASK</b>  
+Write a script that will play the StarWars IV episode in the terminal  
+<i>telnet towel.blinkenlights.nl</i>  
