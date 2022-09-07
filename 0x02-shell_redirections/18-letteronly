@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -F /etc/ssh/sshd_config
+grep -F --ignore-case /etc/ssh/sshd_config
