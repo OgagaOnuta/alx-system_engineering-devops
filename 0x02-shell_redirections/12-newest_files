@@ -1,2 +1,2 @@
 #!bin/bash
-ls -1t > newest | head newest
+ls -1t | less | head
