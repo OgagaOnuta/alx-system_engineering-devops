@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -F "[[:upper:]]" /etc/ssh/sshd_config
+tr [:alpha:] /etc/ssh/sshd_config | grep "[:upper:]"
