@@ -1,2 +1,2 @@
 #!/bin/bash
-x=water#$WATER, y=stir#$STIR, z=bestchol#$((x+y)) | echo $z
+x=$((water\#$WATER)), y=$((stir\#$STIR)), z=$((bestchol\#$((x+y)))) | echo $z
