@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+#  Displays numbers from 1 to 20,
+#+ indicating superstitous numbers
+
+x="bad luck from China"
+y="bad luck from Japan"
+z="bad luck from Italy"
+count=1
+while [ $count -le 20 ];
+do
+    echo "$count"
+    case $count in
+	4)
+	    echo "$x"
+	    ;;
+	9)
+	    echo "$y"
+	    ;;
+	17)
+	    echo "$z"
+	    ;;
+    esac
+    ((count++))
+done
