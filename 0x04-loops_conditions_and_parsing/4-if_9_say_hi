@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#  Displays "Best School" 10 times,
+#+ and then includes "Hi" on the 9th iteration
+
+x="Best School"
+y="Hi"
+count=10
+while [ $count -gt 0 ];
+do
+    echo "$x"
+    if	[ $count -eq 2 ];
+    then
+	echo "$y"
+    fi
+    ((count--))
+done
