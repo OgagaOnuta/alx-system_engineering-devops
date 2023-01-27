@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+#  Displays "Best School" 10 times,
+#+ then "bad luck" on the 4th iteration,
+#+ and "good luck" on the 8th iteration
+
+x="Best School"
+y="bad luck"
+z="good luck"
+count=1
+while [ $count -le 10 ];
+do
+    if	[ $count -eq 4 ];
+    then
+	echo "$y"
+    elif [ $count -eq 8 ];
+    then
+	echo "$z"
+    else
+        echo "$x"
+    fi
+    ((count++))
+done
