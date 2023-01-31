@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+#  Displays numbers from 1 to 100
+#+ Displays "FizzBuzz" when the number is a multiple of 3 and 5
+#+ Displays "Fizz" when the number is a multiple of 3
+#+ Displays "Buzz" when the number is a multiple of 5
+#+ Otherwise, display the number
+#+ In a list format
+
+number=1
+until [ $number -eq 101 ];
+do
+    if [ $((number%15)) == "0" ];
+    then
+	echo "FizzBuzz"
+    elif [ $((number%3)) == "0" ];
+    then
+	echo "Fizz"
+    elif [ $((number%5)) == "0" ];
+    then
+	echo "Buzz"
+    else
+	echo "$number"
+    fi
+    ((number++))
+done
